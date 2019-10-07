@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   EOF
 
   s.add_dependency 'activerecord', '~> 5.2'
-  s.add_dependency 'railties',     '~> 5.2'
+  s.add_dependency 'railties',     '>= 5.2', '< 7.0'
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'sqlite3'
